@@ -49,13 +49,13 @@ The summer school (and conference) will take place in Classroom 8 (Aula 8), loca
  **Time** | **Main Topics** | **Lecturer** 
 ------|------|------
 08:30 - 09:00 | Registration at ESOMAS: Location TBD
-09:00 - 10:30 | [Welcome, and Introduction to Machine Learning and Deep Learning (part I)](day1/slides/01_Intro_to_DeepLearning.pdf) | Scheidegger/Trojani
+09:00 - 10:30 | [Welcome, and Introduction to Machine Learning and Deep Learning (part I)](day1/Scheidegger_Trojani/slides/01_Intro_to_DeepLearning.pdf) | Scheidegger/Trojani
 10:30 - 11:00 | Coffee Break
-11:00 - 12:30 | [Introduction to Machine Learning and Deep Learning (part II), Tensorflow and PyTorch](day1/slides/01_Intro_to_DeepLearning.pdf) | Scheidegger/Trojani
+11:00 - 12:30 | [Introduction to Machine Learning and Deep Learning (part II), Tensorflow and PyTorch](day1/Scheidegger_Trojani/slides/01_Intro_to_DeepLearning.pdf) | Scheidegger/Trojani
 12:30 - 13:30 | Lunch Break
-13:30 - 15:00 | [Introduction to Deep Equilibrium Nets (DEQN)](day1/slides/01_DeepEquilibriumNets.pdf) | Scheidegger
+13:30 - 15:00 | [Introduction to Deep Equilibrium Nets (DEQN)](day1/Scheidegger_Trojani/slides/02_DeepEquilibriumNets.pdf) | Scheidegger
 15:00 - 15:30 | Coffee Break
-15:30 - 17:00 | Hands-on: Solving a dynamic model with [DEQNs](day1/code) | Scheidegger
+15:30 - 17:00 | Hands-on: Solving a dynamic model with [DEQNs](day1/Scheidegger_Trojani/code) | Scheidegger
 
 ### [Day 2](lectures/day2), Tuesday, August 26th, 2025 
 
