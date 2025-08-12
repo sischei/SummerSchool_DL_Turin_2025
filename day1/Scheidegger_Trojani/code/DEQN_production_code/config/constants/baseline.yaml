@@ -1,0 +1,29 @@
+constants:
+    gamma_N: 0.299
+    iN: 0.0
+    iT: 0.0
+    kappa: 1.5
+    #calibrated
+    A_prod: 1.179
+    omega: 1.75
+    yT_bar: 1.0
+    rf_star: 0.0159
+    alpha: 0.8
+    sigma: 2.0
+    beta: 0.98
+    theta: 11.0
+    eta: 0.76
+    calvo: 0.733
+    pi_targ: 0.0074
+    phi_pi: 2.0
+    pTstar: 1.0
+    p_xbar: 1.0
+    rho_rf: 0.0
+    rho_yT: 0.537
+    sigma_rf: 0.0
+    sigma_delta: 0.0025
+    std_yT: 0.0134
+    #shocks
+    sigma_rf: 0.0
+    sigma_yT: 0.0134
+    sigma_delta: 0.0025

@@ -1,0 +1,5 @@
+constants:
+    alpha: 0.3
+    beta: 0.7
+    gamma: 1.0
+    eq_scale: 1e-2

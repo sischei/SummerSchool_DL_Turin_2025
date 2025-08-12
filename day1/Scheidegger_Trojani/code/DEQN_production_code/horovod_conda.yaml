@@ -1,0 +1,16 @@
+name: null
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - cupti=10.1
+  - mpi4py=3.0 # installs cuda-aware openmpi
+  - nvcc_linux-64=10.1
+  #- nccl=2.5
+  - pip=20.1
+  - pip:
+    - tensorflow==2.3.*
+  #  - horovod==0.20.0
+  - python=3.7

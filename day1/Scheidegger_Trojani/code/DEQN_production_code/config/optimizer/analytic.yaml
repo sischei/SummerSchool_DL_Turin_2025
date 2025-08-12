@@ -1,0 +1,3 @@
+optimizer: Adam
+learning_rate: 0.00001
+clipvalue: 1.0

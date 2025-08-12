@@ -1,0 +1,9 @@
+N_sim_batch: 1000
+N_episode_length: 2
+N_epochs_per_episode: 1
+N_minibatch_size: 100
+sorted_within_batch: false
+N_episodes: 50000
+keras_precision: float32
+expectation_type: pseudo_random
+expectation_pseudo_draws: 10

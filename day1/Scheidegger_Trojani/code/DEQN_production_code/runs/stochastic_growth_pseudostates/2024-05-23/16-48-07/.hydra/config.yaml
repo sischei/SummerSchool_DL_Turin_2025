@@ -1,0 +1,46 @@
+constants:
+  constants: null
+net:
+  layers:
+  - hidden:
+      units: 128
+      type: dense
+      activation: selu
+      init_scale: 0.01
+  - hidden:
+      units: 128
+      type: dense
+      activation: selu
+      init_scale: 0.01
+  - output:
+      type: dense
+      activation: linear
+      init_scale: 0.05
+  net_initializer_mode: fan_avg
+  net_initializer_distribution: uniform
+optimizer:
+  optimizer: Adam
+  learning_rate: 0.0001
+  clipvalue: 1
+run:
+  N_sim_batch: 100
+  N_episode_length: 32
+  N_epochs_per_episode: 1
+  N_minibatch_size: 32
+  N_episodes: 50000
+  keras_precision: float32
+  expectation_type: monomial
+  sorted_within_batch: false
+variables:
+  states: null
+  policies: null
+  definitions: null
+seed: 666
+STARTING_POINT: LATEST
+CHECKPOINT_INTERVAL: 50
+MAX_TO_KEEP_NUMBER: 10
+MODEL_NAME: stochastic_growth_pseudostates
+initialize_each_episode: false
+error_filename: error_file.txt
+enable_check_numerics: false
+loss_choice: mse

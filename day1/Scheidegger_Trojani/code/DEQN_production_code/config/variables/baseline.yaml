@@ -1,0 +1,113 @@
+states:
+  - name: rf
+  - name: yT
+  - name: delta
+  - name: b_old
+  - name: pN_old
+  - name: disp_old
+  - name: kappa
+    init:
+      distribution: uniform
+      kwargs:
+        minval: 1.38
+        maxval: 1.54  
+policies:
+  - name: nu
+    bounds:
+      upper: 10000.0
+  - name: q_real
+    bounds:
+      lower: 0.1
+      upper: 1.4
+    activation: implied
+  - name: m_imp
+    bounds:
+      lower: 0.02
+      upper: 0.395
+    activation: implied
+  - name: cT
+    bounds:
+      lower: 0.01
+      upper: 1.0
+    activation: implied
+  - name: h_work
+    bounds:
+      lower: 0.03
+      upper: 1.7
+    activation: implied
+  - name: Lambda
+    bounds:
+      lower: 0.5
+      upper: 50.0
+    activation: implied
+  - name: c_tot
+    bounds:
+      lower: 0.35
+      upper: 2.8
+    activation: implied
+  - name: cN
+    bounds:
+      lower: 0.01
+      upper: 2.5
+    activation: implied
+  - name: num
+    bounds:  
+      lower: 5.0
+      upper: 320.0
+    activation: implied
+  - name: den
+    bounds: 
+      lower: 10.0
+      upper: 320.0
+    activation: implied
+  - name: pN
+    bounds:
+      lower: 0.35
+      upper: 2.08
+    activation: implied
+  - name: piN
+    bounds:
+      lower: -0.1
+      upper: 0.1
+    activation: implied
+  - name: pi_tot
+    bounds:
+      lower: -0.04
+      upper: 0.2
+    activation: implied
+  - name: p_x
+    bounds:
+      lower: 0.1
+      upper: 1.6
+    activation: implied
+  - name: i_nom
+    bounds:
+      lower: -0.06
+      upper: 0.6
+    activation: implied
+  - name: r_real
+    bounds:
+      lower: -0.05
+      upper: 0.40
+    activation: implied
+  - name: disp
+    bounds:
+      lower: 0.1
+      upper: 5.1
+    activation: implied
+  - name: mu
+definitions:
+  - name: pT
+  - name: tradeb
+  - name: yN
+  - name: wage
+  - name: bigQ_real
+  - name: pNtilde
+  - name: phi
+  - name: y_tot
+  - name: b_new
+    bounds:
+      lower: 0.001
+      upper: 2.0
+      
+      

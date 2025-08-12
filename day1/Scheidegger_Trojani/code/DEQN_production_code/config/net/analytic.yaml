@@ -1,0 +1,20 @@
+layers:
+  - hidden:
+     units: 100
+     type: dense
+     activation: relu
+     init_scale: 0.1
+     batch_normalize:
+       momentum: 0.99
+  - hidden:
+     units: 50
+     type: dense
+     activation: relu
+     init_scale: 0.1
+     dropout_rate: 0.01
+  - output:
+     type: dense
+     activation: linear
+     init_scale: 0.1
+net_initializer_mode: fan_avg
+net_initializer_distribution: truncated_normal

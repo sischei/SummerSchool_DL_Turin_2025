@@ -1,0 +1,26 @@
+layers:  
+  - hidden:
+     units: 128
+     type: dense
+     activation: selu
+     init_scale: 0.01
+     #batch_normalize:
+     #  momentum: 0.99          
+  - hidden:
+     units: 128
+     type: dense
+     activation: selu
+     init_scale: 0.01
+     #batch_normalize:
+     #  momentum: 0.99         
+  - output:
+     type: dense
+     activation: linear
+     init_scale: 0.05
+# --------------------------------------------------------------------------- #
+# Mimic the Glorot uniform initializer using the VarianceScaling initializer
+# --------------------------------------------------------------------------- #
+net_initializer_mode: fan_avg
+net_initializer_distribution: uniform   
+#net_initializer_mode: fan_in
+#net_initializer_distribution: truncated_normal 

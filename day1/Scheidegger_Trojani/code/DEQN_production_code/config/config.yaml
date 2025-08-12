@@ -1,0 +1,20 @@
+hydra: 
+  run:
+    dir: runs/${MODEL_NAME}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+defaults:
+  - constants: stochastic_growth
+  - net: stochastic_growth
+  - optimizer: stochastic_growth
+  - run: stochastic_growth
+  - variables: stochastic_growth
+seed: 666
+# can be NEW, LATEST, or a given checkpoint filename
+STARTING_POINT: NEW
+CHECKPOINT_INTERVAL: 50
+MAX_TO_KEEP_NUMBER: 10
+MODEL_NAME: stochastic_growth_pseudostates
+#False-> Simulation; True -> draw 
+initialize_each_episode: False
+error_filename: error_file.txt
+enable_check_numerics: False
+loss_choice: mse #huber 
