@@ -40,9 +40,11 @@ science, and the computational economics and finance literature.
 
 - For any organizational question, please write to the default email address of the summer school: <deeplearningconf25@gmail.com>
 
-- For any question regarding whereabouts, there is a team of students that are happy to help:
-  - A
-  - B
+- For any question regarding whereabouts, local assistance, etc., there is a team of students that is avaialble to help, and should be contacted via email:
+  - Luca Emanuele Marcianò <luca.marciano@carloalberto.org>
+  - Kacper Krasowski <kacper.krasowki@carloalberto.org>
+  - Riccardo Gallone <riccardo.gallone@carloalberto.org>
+  - Alessandro Ricchiuti <alessandro.ricchiuti@carloalberto.org>
 
 ## Location
 
@@ -63,6 +65,7 @@ The summer school (and conference) will take place in Classroom 8 (Aula 8), loca
 13:30 - 15:00 | [Introduction to Deep Equilibrium Nets (DEQN)](day1/Scheidegger_Trojani/slides/02_DeepEquilibriumNets.pdf) | Scheidegger
 15:00 - 15:30 | Coffee Break
 15:30 - 17:00 | Hands-on: Solving a dynamic model with [DEQNs](day1/Scheidegger_Trojani/code) | Scheidegger
+19:00 - 22:00 | Pizza Dinner: it will be held at Pizzeria Da Pecchia, Corso Unione Sovietica 244
 
 ### [Day 2](lectures/day2), Tuesday, August 26th, 2025 
 
@@ -75,6 +78,7 @@ The summer school (and conference) will take place in Classroom 8 (Aula 8), loca
 13:30 - 15:00 | [Hands-on exercises on DeepHAM](day2/Yang/code) | Yang
 15:00 - 15:30 | Coffee Break
 15:30 - 17:00 | [Industry Talk [DEQNs](day2/Karyampas/slides) | Karyampas
+19:00 - 22:00 | Informal Aperitivo/Drinks: self-funded (covered by participants) gathering for an aperitivo or drinks. 
 
 ### [Day 3](lectures/day3), Wednesday, August 27th, 2025 
 
