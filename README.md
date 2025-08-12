@@ -75,13 +75,13 @@ The summer school (and conference) will take place in Classroom 8 (Aula 8), loca
 ------|------|------
 09:00 - 10:30 | [Deep Learning for Continuous-time Models](day3/Scheidegger_Yang/slides) | Scheidegger/Yang
 10:30 - 11:00 | Coffee Break
-11:00 - 12:30 | [Gaussian Processes for Dynamic Models](day3/slides) | Trojani
+11:00 - 12:30 | [Gaussian Processes for Dynamic Models](day3/Trojani/slides) | Trojani
 12:30 - 13:30 | Lunch Break
-13:30 - 14:30 | [Deep Surrogates (I)](day3/slides) | Chen
+13:30 - 14:30 | [Deep Surrogates (I)](day3/Chen/slides) | Chen
 14:30 - 14:45 | Short offee Break
-14:45 - 15:45 | [Deep Surrogates (II)](day3/slides) | Chen
+14:45 - 15:45 | [Deep Surrogates (II)](day3/Chen/slides) | Chen
 15:45 - 16:00 | Short offee Break
-16:00 - 17:30 | [Keynote Presentation](day3/slides) | Violante
+16:00 - 17:30 | [Keynote Presentation](day3/Violante/slides) | Violante
 
 
 ### Teaching philosophy
