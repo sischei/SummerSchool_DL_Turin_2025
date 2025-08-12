@@ -44,7 +44,7 @@ The summer school (and conference) will take place in Classroom 8 (Aula 8), loca
 
 ## Schedule
 
-### [Day 1](lectures/day1), Wednesday, August 25th, 2025 (location: TBD)
+### [Day 1](lectures/day1), Monday, August 25th, 2025
 
  **Time** | **Main Topics** | **Lecturer** 
 ------|------|------
@@ -57,7 +57,7 @@ The summer school (and conference) will take place in Classroom 8 (Aula 8), loca
 15:00 - 15:30 | Coffee Break
 15:30 - 17:00 | Hands-on: Solving a dynamic model with [DEQNs](day1/code) | Scheidegger
 
-### [Day 2](lectures/day2), Thursday, August 26th, 2025 (location: TBD)
+### [Day 2](lectures/day2), Tuesday, August 26th, 2025 
 
  **Time** | **Main Topics** | **Lecturer** 
 ------|------|------
@@ -69,7 +69,7 @@ The summer school (and conference) will take place in Classroom 8 (Aula 8), loca
 15:00 - 15:30 | Coffee Break
 15:30 - 17:00 | [Industry Talk [DEQNs](day2/slides) | Karyampas
 
-### [Day 3](lectures/day3), Friday, August 27th, 2025 (location: TBD)
+### [Day 3](lectures/day3), Wednesday, August 27th, 2025 
 
  **Time** | **Main Topics** | **Lecturer** 
 ------|------|------
@@ -79,7 +79,9 @@ The summer school (and conference) will take place in Classroom 8 (Aula 8), loca
 12:30 - 13:30 | Lunch Break
 13:30 - 14:30 | [Deep Surrogates (I)](day3/slides) | Chen
 14:30 - 14:45 | Short offee Break
-15:30 - 17:00 | [Keynote Presentation](day3/slides) | Violante
+14:45 - 15:45 | [Deep Surrogates (II)](day3/slides) | Chen
+15:45 - 16:00 | Short offee Break
+16:00 - 17:30 | [Keynote Presentation](day3/slides) | Violante
 
 
 ### Teaching philosophy
