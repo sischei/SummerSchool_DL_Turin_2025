@@ -91,7 +91,7 @@ a browser-based cloud infrastructure in which files, datasets, code, and applica
 - [Yucheng Yang](https://sites.google.com/site/yangyucheng1993/home) (University of Zurich and Swiss Finance Institute)
 
 ### Local Organizers
-- [Usman Ali](https://sites.google.com/carloalberto.org/thesummerschool2025unito/organising-team?authuser=0)
+- [Usman Ali](https://www.esomas.unito.it/do/docenti.pl/Alias?usman.ali#tab-profilo)
 - [Matthijs Breugem](https://sites.google.com/view/breugem)
 - [Andrea Gallice](https://sites.google.com/carloalberto.org/andreagallice/home-page)
 
