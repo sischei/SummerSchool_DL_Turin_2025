@@ -36,7 +36,7 @@ science, and the computational economics and finance literature.
 
 - Nuvolos Support: <support@nuvolos.cloud>
 
-### On-site Support
+## On-site Support
 
 - For any organizational question, please write to the default email address of the summer school: <deeplearningconf25@gmail.com>
 
