@@ -36,6 +36,13 @@ science, and the computational economics and finance literature.
 
 - Nuvolos Support: <support@nuvolos.cloud>
 
+### On-sight Support
+
+- For any organizational question, please write to the default email address of the summer school: <deeplearningconf25@gmail.com>
+
+- For any question regarding whereabouts, there is a team of students that are happy to help:
+  - A
+  - B
 
 ## Location
 
@@ -48,7 +55,7 @@ The summer school (and conference) will take place in Classroom 8 (Aula 8), loca
 
  **Time** | **Main Topics** | **Lecturer** 
 ------|------|------
-08:30 - 09:00 | Registration at ESOMAS: Location TBD
+08:30 - 09:00 | Registration at ESOMAS
 09:00 - 10:30 | [Welcome, and Introduction to Machine Learning and Deep Learning (part I)](day1/Scheidegger_Trojani/slides/01_Intro_to_DeepLearning.pdf) | Scheidegger/Trojani
 10:30 - 11:00 | Coffee Break
 11:00 - 12:30 | [Introduction to Machine Learning and Deep Learning (part II), Tensorflow and PyTorch](day1/Scheidegger_Trojani/slides/01_Intro_to_DeepLearning.pdf) | Scheidegger/Trojani
