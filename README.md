@@ -104,7 +104,7 @@ a browser-based cloud infrastructure in which files, datasets, code, and applica
 
 - [Hui Chen](https://mitsloan.mit.edu/faculty/directory/hui-chen) (Massachusetts Institute of Technology)
 - [Dimitrios Karyampas](https://www.linkedin.com/in/dimitris-karyampas-3740257/?originalSubdomain=ch) (Practitioner and visiting lecturer at Bocconi (among others))
-- [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) (University of Lausanne and Grantham Institute, London School of Economics)
+- [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) (University of Lausanne and Grantham Research Institute, London School of Economics)
 - [Fabio Trojani]() (University of Geneva, Swiss Finance Institute, and ESOMAS)
 - [Gianluca Violante](https://violante.economics.princeton.edu/) (Princeton University)
 - [Yucheng Yang](https://sites.google.com/site/yangyucheng1993/home) (University of Zurich and Swiss Finance Institute)
