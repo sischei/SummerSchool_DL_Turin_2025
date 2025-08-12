@@ -41,10 +41,10 @@ science, and the computational economics and finance literature.
 - For any organizational question, please write to the default email address of the summer school: <deeplearningconf25@gmail.com>
 
 - For any question regarding whereabouts, local assistance, etc., there is a team of students that is avaialble to help, and should be contacted via email:
-  - Luca Emanuele Marcianò <luca.marciano@carloalberto.org>
-  - Kacper Krasowski <kacper.krasowki@carloalberto.org>
-  - Riccardo Gallone <riccardo.gallone@carloalberto.org>
-  - Alessandro Ricchiuti <alessandro.ricchiuti@carloalberto.org>
+  - Luca Emanuele Marcianò: <luca.marciano@carloalberto.org>
+  - Kacper Krasowski: <kacper.krasowki@carloalberto.org>
+  - Riccardo Gallone: <riccardo.gallone@carloalberto.org>
+  - Alessandro Ricchiuti: <alessandro.ricchiuti@carloalberto.org>
 
 ## Location
 
