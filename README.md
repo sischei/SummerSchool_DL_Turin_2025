@@ -45,7 +45,7 @@ science, and the computational economics and finance literature.
 08:30 - 09:00 | Registration at ESOMAS: Location TBD
 09:00 - 10:30 | [Welcome, and Introduction to Machine Learning and Deep Learning (part I)](day1/slides/01_Intro_to_DeepLearning.pdf) | Scheidegger/Trojani
 10:30 - 11:00 | Coffee Break
-11:00 - 12:30 | [Introduction to Machine Learning and Deep Learning (part II), Tensorflow and PyTorch](day1/slides/01_Intro_to_DeepLearning.pdf) 
+11:00 - 12:30 | [Introduction to Machine Learning and Deep Learning (part II), Tensorflow and PyTorch](day1/slides/01_Intro_to_DeepLearning.pdf) | Scheidegger/Trojani
 12:30 - 13:30 | Lunch Break
 13:30 - 15:00 | [Introduction to Deep Equilibrium Nets (DEQN)](day1/slides/01_DeepEquilibriumNets.pdf) | Scheidegger
 15:00 - 15:30 | Coffee Break
@@ -83,7 +83,7 @@ a browser-based cloud infrastructure in which files, datasets, code, and applica
 
 ### Lecturers 
 
-- [Hui Chen][https://mitsloan.mit.edu/faculty/directory/hui-chen] (Massachusetts Institute of Technology)
+- [Hui Chen](https://mitsloan.mit.edu/faculty/directory/hui-chen) (Massachusetts Institute of Technology)
 - [Dimitrios Karyampas](https://www.linkedin.com/in/dimitris-karyampas-3740257/?originalSubdomain=ch) (Practitioner and visiting lecturer at Bocconi (among others))
 - [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) (University of Lausanne and Grantham Institute, London School of Economics)
 - [Fabio Trojani]() (University of Geneva, Swiss Finance Institute, and ESOMAS)
