@@ -1,5 +1,9 @@
 # Deep Learning for Economics and Finance (August 25 - 27, 2025)
 
+<p align="center">
+<img src="screens/SummerSchool_Torino.png" width="800px"/>
+</p>
+
 Summer school on [Deep Learning for Economics and Finance](https://sites.google.com/carloalberto.org/thesummerschool2025unito/home?authuser=0), held at [ESOMAS](https://www.esomas.unito.it/do/home.pl), University of Torino. 
 
 
