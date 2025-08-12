@@ -53,7 +53,7 @@ The summer school (and conference) will take place in Classroom 8 (Aula 8), loca
 
 ## Schedule
 
-### [Day 1](lectures/day1), Monday, August 25th, 2025
+### [Day 1](day1), Monday, August 25th, 2025
 
  **Time** | **Main Topics** | **Lecturer** 
 ------|------|------
@@ -67,7 +67,7 @@ The summer school (and conference) will take place in Classroom 8 (Aula 8), loca
 15:30 - 17:00 | Hands-on: Solving a dynamic model with [DEQNs](day1/Scheidegger_Trojani/code) | Scheidegger
 19:00 - 22:00 | Pizza Dinner: it will be held at Pizzeria Da Pecchia, Corso Unione Sovietica 244
 
-### [Day 2](lectures/day2), Tuesday, August 26th, 2025 
+### [Day 2](day2), Tuesday, August 26th, 2025 
 
  **Time** | **Main Topics** | **Lecturer** 
 ------|------|------
@@ -80,7 +80,7 @@ The summer school (and conference) will take place in Classroom 8 (Aula 8), loca
 15:30 - 17:00 | [Industry Talk](day2/Karyampas/slides) | Karyampas
 19:00 - 22:00 | Informal Aperitivo/Drinks: self-funded (covered by participants) gathering for an aperitivo or drinks. 
 
-### [Day 3](lectures/day3), Wednesday, August 27th, 2025 
+### [Day 3](day3), Wednesday, August 27th, 2025 
 
  **Time** | **Main Topics** | **Lecturer** 
 ------|------|------
