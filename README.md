@@ -71,20 +71,20 @@ The summer school (and conference) will take place in Classroom 8 (Aula 8), loca
 
  **Time** | **Main Topics** | **Lecturer** 
 ------|------|------
-09:00 - 10:30 | [Solving heterogenenous agents models with DeepHAM (I)](day2/Yang/slides) | Yang
+09:00 - 10:30 | [Solving heterogenenous agents models with DeepHAM](day2/Yang/slides) | Yang
 10:30 - 11:00 | Coffee Break
-11:00 - 12:30 | [Solving heterogenenous agents models with DeepHAM (II)](day2/Yang/slides) | Yang
+11:00 - 12:30 | [Hands-on exercises on DeepHAM](day2/Yang/code) | Yang
 12:30 - 13:30 | Lunch Break
-13:30 - 15:00 | [Hands-on exercises on DeepHAM](day2/Yang/code) | Yang
+13:30 - 15:00 | [Physics-informed Neural Nets for PDEs](day2/Scheidegger/slides) | Scheidegger
 15:00 - 15:30 | Coffee Break
-15:30 - 17:00 | [Industry Talk [DEQNs](day2/Karyampas/slides) | Karyampas
+15:30 - 17:00 | [Industry Talk](day2/Karyampas/slides) | Karyampas
 19:00 - 22:00 | Informal Aperitivo/Drinks: self-funded (covered by participants) gathering for an aperitivo or drinks. 
 
 ### [Day 3](lectures/day3), Wednesday, August 27th, 2025 
 
  **Time** | **Main Topics** | **Lecturer** 
 ------|------|------
-09:00 - 10:30 | [Deep Learning for Continuous-time Models](day3/Scheidegger_Yang/slides) | Scheidegger/Yang
+09:00 - 10:30 | [Deep Learning for Continuous-time Models](day3/Yang/slides) | Yang
 10:30 - 11:00 | Coffee Break
 11:00 - 12:30 | [Gaussian Processes for Dynamic Models](day3/Trojani/slides) | Trojani
 12:30 - 13:30 | Lunch Break
