@@ -37,9 +37,12 @@ science, and the computational economics and finance literature.
 - Nuvolos Support: <support@nuvolos.cloud>
 
 
-## Topics
+## Location
 
-## Session 1 
+The summer school (and conference) will take place in Classroom 8 (Aula 8), located on the ground floor next to the main entrance of the SME building, at Corso Unione Sovietica 218bis, Torino.
+
+
+## Schedule
 
 ### [Day 1](lectures/day1), Wednesday, August 25th, 2025 (location: TBD)
 
