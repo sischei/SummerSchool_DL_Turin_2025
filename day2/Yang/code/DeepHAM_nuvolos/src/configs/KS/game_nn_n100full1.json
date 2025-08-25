@@ -1,0 +1,62 @@
+{
+    "n_agt": 100,
+    "beta": 0.99,
+    "random_seed": [996, 123, 456, 789, 1011],
+    "mats_path": "../data/KS_policy_N50_v1.mat",
+    "n_basic": 3,
+    "_comment_basic": "k_cross, ishock, ashock",
+    "n_fm": 0,
+    "n_gm": 0,
+    "full_state": true,
+    "init_with_bchmk": false,
+    "init_const_share": 0.4,
+    "dataset_config": {
+        "n_path": 384,
+        "t_burn": 6000,
+        "value_sampling": "nn",
+        "moving_average": 1.0
+    },
+    "value_config": {
+        "num_vnet": 3,
+        "T": 2000, 
+        "t_count": 800,
+        "t_skip": 100,
+        "_comment_v_data": "the above is about ValueDataSet",
+        "num_epoch": 200,
+        "lr": 1e-4,
+        "net_width": [24, 24],
+        "activation": "tanh",
+        "batch_size": 128,
+        "valid_size": 512,
+        "_comment_v_learn": "the above is about learning"
+    },
+    "policy_config": {
+        "opt_type": "game",
+        "update_init": true,
+        "t_unroll": 150,
+        "num_step": 10000,
+        "freq_update_v": 2000,
+        "lr_beg": 4e-4,
+        "lr_end": 4e-4,
+        "net_width": [64, 64],
+        "activation": "tanh",
+        "batch_size": 384,
+        "valid_size": 384,
+        "freq_valid": 500,
+        "sgm_scale": 1,
+        "_comment_p_learn": "the above is about learning",
+        "T": 450,
+        "t_sample": 200,
+        "t_skip": 4,
+        "epoch_resample": 0,
+        "_comment_p_data": "the above is about PolicyDataSet"
+    },
+    "gm_config": {
+        "net_width": [12, 12],
+        "activation": "tanh"
+    },
+    "simul_config": {
+        "n_path": 64,
+        "T": 2000
+    }
+}
