@@ -86,13 +86,13 @@ The summer school (and conference) will take place in Classroom 8 (Aula 8), loca
 ------|------|------
 09:00 - 10:30 | [Deep Learning for Continuous-time Models](day3/Yang/slides) | Yang
 10:30 - 11:00 | Coffee Break
-11:00 - 12:30 | [Gaussian Processes for Dynamic Models](day3/Trojani/slides) | Trojani
+11:00 - 12:30 | [Keynote Presentation](day3/Violante/slides) | Violante
 12:30 - 13:30 | Lunch Break
 13:30 - 14:30 | [Deep Surrogates & Teaching Economics to the Machines (I)](day3/Chen/slides) | Chen
 14:30 - 14:45 | Short offee Break
 14:45 - 15:45 | [Teaching Economics to the Machines (II)](day3/Chen/slides) | Chen
 15:45 - 16:00 | Short offee Break
-16:00 - 17:30 | [Keynote Presentation](day3/Violante/slides) | Violante
+16:00 - 17:30| [Gaussian Processes for Dynamic Models](day3/Trojani/slides) | Trojani
 
 
 ### Teaching philosophy
