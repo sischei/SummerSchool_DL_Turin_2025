@@ -72,14 +72,14 @@ class PolicyTrainer():
                  tf.repeat(tf.transpose(tf.cast(input_data["agt_s"], DTYPE), perm=[0, 2, 1]), self.config["n_agt"], axis=-2)],
                  axis=-1
             )
-        elif self.config["n_fm"] == 2:
-            k_var = tf.math.reduce_variance(agt_s, axis=-2, keepdims=True)
-            k_var = tf.tile(k_var, [1, agt_s.shape[1], 1])
-            state = tf.concat([basic_s, k_var], axis=-1)
         elif self.config["n_fm"] == 0:
             state = tf.concat([basic_s[..., 0:1], basic_s[..., 2:]], axis=-1)
         elif self.config["n_fm"] == 1:  # so far always add k_mean in the basic_state
             state = basic_s
+        elif self.config["n_fm"] == 2:
+            k_var = tf.math.reduce_variance(agt_s, axis=-2, keepdims=True)
+            k_var = tf.tile(k_var, [1, agt_s.shape[1], 1])
+            state = tf.concat([basic_s, k_var], axis=-1)
         if self.config["n_gm"] > 0:
             gm = self.gm_model(agt_s)
             state = tf.concat([state, gm], axis=-1)
@@ -137,26 +137,46 @@ class PolicyTrainer():
         )
 
         # TODO: currenly assuming valid_size = n_path in self.init_ds
-        valid_data = dict((k, self.init_ds.datadict[k].astype(NP_DTYPE)) for k in self.init_ds.keys)
+        # --- Build a fixed validation dataset (used repeatedly at the end of each epoch) ---
+        valid_data = dict(
+            (k, self.init_ds.datadict[k].astype(NP_DTYPE))
+            for k in self.init_ds.keys
+        )
+        # simulate shocks for the validation set, length = t_unroll = 150 periods
         ashock, ishock = self.simul_shocks(
-            self.valid_size, self.t_unroll, self.mparam,
+            self.valid_size, self.t_unroll, self.mparam, #valid_size = 384 paths
             state_init=self.init_ds.datadict
         )
         valid_data["ashock"] = ashock.astype(NP_DTYPE)
         valid_data["ishock"] = ishock.astype(NP_DTYPE)
 
-        freq_valid = self.policy_config["freq_valid"]
-        n_epoch = num_step // freq_valid
-        update_init = False
+        # --- Training loop setup ---
+        freq_valid  = self.policy_config["freq_valid"]   # = 500 → validate every 500 steps
+        n_epoch     = num_step // freq_valid             # = 10000 // 500 = 20 validation epochs
+        update_init = False                              # flag controlling dataset re-initialization
+
         if tf.config.list_physical_devices('GPU'):
             print(tf.config.experimental.get_memory_info('GPU:0'))
+
+        # --- Outer loop: 20 validation epochs ---
         for n in range(n_epoch):
+            # --- Inner loop: 500 policy updates per epoch ---
             for step in tqdm(range(freq_valid)):
+                # sample a fresh mini-batch (size = 384) and simulate shocks
                 train_data = self.sampler(batch_size, update_init)
+                # one policy gradient step on this batch
                 k_end = self.train_step(train_data)
                 n_step = n*freq_valid + step
-                if self.value_sampling != "bchmk" and n_step % self.policy_config["freq_update_v"] == 0 and n_step > 0:
+
+                # --- Value function updating every 2000 steps ---
+                if (
+                    self.value_sampling != "bchmk"
+                    and n_step % self.policy_config["freq_update_v"] == 0
+                    and n_step > 0
+                ):                
                     update_init = self.policy_config["update_init"]
+
+                    # rebuild value datasets under the current policy
                     train_vds, valid_vds = self.get_valuedataset(update_init)
                     for vtr in self.vtrainers:
                         vtr.train(
@@ -169,6 +189,8 @@ class PolicyTrainer():
                 with self.train_summary_writer.as_default():
                     tf.summary.scalar('loss', self.train_loss_metric.result(), step=n_step)
                 self.train_loss_metric.reset_state()
+            
+            # --- End of epoch: run validation once (on the fixed valid_data) ---
             val_output = self.loss(valid_data)
             print(
                 "Step: %d, valid util: %g, k_end: %g" %
@@ -266,10 +288,16 @@ class KSPolicyTrainer(PolicyTrainer):
             util_sum += self.discount[t] * tf.math.log(csmp)
 
         if self.policy_config["opt_type"] == "socialplanner":
-            output_dict = {"m_util": -tf.reduce_mean(util_sum), "k_end": tf.reduce_mean(k_cross)}
+            output_dict = {
+                "m_util": -tf.reduce_mean(util_sum), 
+                "k_end": tf.reduce_mean(k_cross)
+                }
         elif self.policy_config["opt_type"] == "game":
             # optimizing agent 0 only
-            output_dict = {"m_util": -tf.reduce_mean(util_sum[:, 0]), "k_end": tf.reduce_mean(k_cross)}
+            output_dict = {
+                "m_util": -tf.reduce_mean(util_sum[:, 0]),
+                "k_end": tf.reduce_mean(k_cross)
+                }
         return output_dict
 
     def update_policydataset(self, update_init=False):

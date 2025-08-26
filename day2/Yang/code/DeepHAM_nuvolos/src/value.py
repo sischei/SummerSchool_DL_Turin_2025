@@ -119,15 +119,8 @@ class ValueTrainer():
                     val_loss = self.loss(valid_data)
                     # self.valid_loss_metric(val_loss["loss"])
                     print(
-                        # "Epoch: %d, validation loss: %g" % (epoch, val_loss["loss"])
                         "Value function learning epoch: %d" % (epoch)
                     )                    
-            #         with self.valid_summary_writer.as_default():
-            #             tf.summary.scalar('loss', self.valid_loss_metric.result(), step=epoch)
-            # with self.train_summary_writer.as_default():
-            #     tf.summary.scalar('loss', self.train_loss_metric.result(), step=epoch)
-            # self.train_loss_metric.reset_states()
-            # self.valid_loss_metric.reset_states()
 
     def save_model(self, path="value_model.h5"):
         self.model.save_weights(path)
