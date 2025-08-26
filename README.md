@@ -92,7 +92,7 @@ The summer school (and conference) will take place in Classroom 8 (Aula 8), loca
 14:30 - 14:45 | Short offee Break
 14:45 - 15:45 | [Teaching Economics to the Machines (II)](day3/Chen/slides) | Chen
 15:45 - 16:00 | Short offee Break
-16:00 - 17:30| [Gaussian Processes for Dynamic Models](day3/Trojani/slides) | Trojani
+16:00 - 17:30 | [Gaussian Processes for Dynamic Models](day3/Trojani/slides) | Trojani
 
 
 ### Teaching philosophy
