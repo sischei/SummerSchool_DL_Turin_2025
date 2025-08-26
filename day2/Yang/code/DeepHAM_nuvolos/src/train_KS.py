@@ -71,13 +71,18 @@ def main(argv):
     else:
         init_policy = init_ds.c_policy_const_share
         policy_type = "nn_share"
-    train_vds, valid_vds = init_ds.get_valuedataset(init_policy, policy_type, update_init=False)
+    train_vds, valid_vds = init_ds.get_valuedataset(
+        init_policy, policy_type, update_init=False
+    )
     vtrainers = []
     for i in range(value_config["num_vnet"]):
         config["vnet_idx"] = str(i)
         vtrainers.append(ValueTrainer(config))
     for vtr in vtrainers:
-        vtr.train(train_vds, valid_vds, value_config["num_epoch"], value_config["batch_size"])
+        vtr.train(
+            train_vds, valid_vds, 
+            value_config["num_epoch"], value_config["batch_size"]
+        )
 
     # iterative policy and value training
     policy_config = config["policy_config"]

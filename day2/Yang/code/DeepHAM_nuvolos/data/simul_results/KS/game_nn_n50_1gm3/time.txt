@@ -1,0 +1,1 @@
+Solving the problem based on the config path ./configs/KS/game_nn_n50_0fm1gm.json took 5277.92 seconds.
